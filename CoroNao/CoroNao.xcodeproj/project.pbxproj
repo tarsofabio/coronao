@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51BBD5DB2514327200CE64BF /* Cadastro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BBD5D92514327200CE64BF /* Cadastro.storyboard */; };
 		E58C767C25119078007DE070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58C767B25119078007DE070 /* AppDelegate.swift */; };
 		E58C767E25119078007DE070 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58C767D25119078007DE070 /* SceneDelegate.swift */; };
 		E58C768025119078007DE070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58C767F25119078007DE070 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51BBD5DA2514327200CE64BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Cadastro.storyboard; sourceTree = "<group>"; };
 		E58C767825119078007DE070 /* CoroNao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoroNao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58C767B25119078007DE070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E58C767D25119078007DE070 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				E58C767B25119078007DE070 /* AppDelegate.swift */,
 				E58C767D25119078007DE070 /* SceneDelegate.swift */,
 				E58C767F25119078007DE070 /* ViewController.swift */,
+				51BBD5D92514327200CE64BF /* Cadastro.storyboard */,
 				E58C768125119078007DE070 /* login.storyboard */,
 				E58C768425119081007DE070 /* Assets.xcassets */,
 				E58C768625119081007DE070 /* LaunchScreen.storyboard */,
@@ -128,6 +131,7 @@
 				E58C768825119081007DE070 /* LaunchScreen.storyboard in Resources */,
 				E58C768525119081007DE070 /* Assets.xcassets in Resources */,
 				E58C768325119078007DE070 /* login.storyboard in Resources */,
+				51BBD5DB2514327200CE64BF /* Cadastro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +151,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		51BBD5D92514327200CE64BF /* Cadastro.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BBD5DA2514327200CE64BF /* Base */,
+			);
+			name = Cadastro.storyboard;
+			sourceTree = "<group>";
+		};
 		E58C768125119078007DE070 /* login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
